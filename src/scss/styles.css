@@ -1,0 +1,81 @@
+@import "~bootstrap";
+
+body{
+    background-color: #18171a;
+}
+
+.join-community{
+    background-color: rgb(219, 0, 91);
+}
+
+.join-community:hover,.join-community:focus-visible{
+    background-color: rgb(219, 0, 91);
+}
+.btn.join-community:active{
+    background-color: rgb(219, 0, 91);
+}
+
+.join-community:checked{
+    background-color: rgb(219, 0, 91);
+}
+
+.lpht{
+color: #f7ecf0;
+font-family: Open Sans, sans-serif;
+font-size: 56px;
+font-weight: 800;
+line-height: 68px;
+}
+.gradient{
+    -webkit-text-fill-color: transparent;
+background-image: linear-gradient(#865dff, #865dff);
+-webkit-background-clip: text;
+background-clip: text;
+}
+
+.hdesc{
+    color: rgba(247, 236, 240, .59);
+    font-size: 14px;
+}
+
+.ht-2,.lpt2{
+    color: hsla(255.2173913043478, 100%, 72.94%, 1);
+font-size: 32px;
+line-height: 36px;
+text-align: center;
+font-weight: bold;
+}
+
+.headerCard{
+    border-radius: 12px;
+    width: 50%;
+    background-color:hsla(335.06849315068496, 39.19%, 94.52%, 0.12);
+}
+
+.headerCard1{
+    grid-auto-columns: 1fr;
+    column-gap: 42px;
+    row-gap: 42px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.lpt2{
+    color: hsla(255.2173913043478, 100%, 72.94%, 1);
+    font-weight: bold;
+}
+
+.card-b{
+    border-radius: 12px;
+}
+
+.card-b:hover{
+    box-shadow: rgb(152, 117, 255) -1px 1px 6px 0px;
+transform: scale(1.1);
+}
+
+.card-t{
+    font-size: 20px;
+    font-weight: bold;
+}
+
