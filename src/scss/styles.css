@@ -19,6 +19,62 @@ body{
     background-color: rgb(219, 0, 91);
 }
 
+.circle {
+    height:350px;
+    background: radial-gradient(circle at center, rgb(51, 14, 89) 20%, transparent 100%),
+                radial-gradient(circle at center, rgb(93, 8, 33) 10%, transparent 100%),
+                radial-gradient(circle at center, rgb(181, 98, 44) 10%, transparent 100%);
+
+    background-position: -80px -50px, 100px 100px, -150px 200px;
+    backdrop-filter: blur(3px);
+  
+  }
+
+  .test-slide{
+    background-color: #333134;
+    border-radius: 12px;
+  }
+  .insideDiv{
+    position:relative;
+  }
+ 
+  .fcard{
+
+    background-color: #333134;
+    border-radius: 12px;
+  }
+
+.gbtn{
+ 
+        background: linear-gradient(to bottom, #620dc9af, #914ade);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 0px 10px 10px 0px;
+        cursor: pointer;
+
+}
+
+footer{
+    border-top: 1px solid white;
+}
+.input{
+    background-color: black;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    height: 50px;
+    outline: none;
+    caret-color: white;
+    color: white;
+    font-size: 18px;
+}
+
+input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
 .lpht{
 color: #f7ecf0;
 font-family: Open Sans, sans-serif;
@@ -48,12 +104,12 @@ font-weight: bold;
 
 .headerCard{
     border-radius: 12px;
-    width: 50%;
+
     background-color:hsla(335.06849315068496, 39.19%, 94.52%, 0.12);
 }
 
 .headerCard1{
-    grid-auto-columns: 1fr;
+
     column-gap: 42px;
     row-gap: 42px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -79,3 +135,6 @@ transform: scale(1.1);
     font-weight: bold;
 }
 
+.img{
+    min-width:40px;
+}
