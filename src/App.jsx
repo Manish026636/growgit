@@ -69,9 +69,9 @@ function App() {
               <p className="hdesc">
               Join our revolutionary edtech platform where aspirations converge, and students from every corner of India connect, collaborate, and thrive together.
               </p>
-            <button className="btn text-white join-community">
+            <a className="btn text-white join-community" href='https://discord.gg/pnjayJbbMJ'>
               Join us 
-            </button>
+            </a>  {/* change button to a tag  */}
           </div>
           </div>
           <div className="col-md-6">
