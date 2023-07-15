@@ -297,7 +297,7 @@ function App() {
           </div>
           </div>
           <div className="col-md-6">
-            <img src={Comunity2} alt="" srcset="" />
+            <img src={Comunity2} alt="" className="w-100" srcset="" />
           </div>
         </div>
       </section>
@@ -309,8 +309,8 @@ function App() {
           <div className="insideDiv hdesc">
           Hear how GrowUp Buddy has transformed lives, empowered careers, and built a thriving community!
           </div>
-          <div className="container d-flex justify-content-center row column-gap-4 mt-5 ">
-            <div className="col-5 p-5 test-slide">
+          <div className="container row row-gap-4 d-flex justify-content-center row column-gap-4 mt-5 ">
+            <div className="col-md-5 col-12 p-5 test-slide">
             <p className="text-white">
             The Grow Up Buddy community is like a second family, always there to offer support, guidance, and inspiration. Through their platform, I've connected with incredible individuals who have become my collaborators and lifelong friends. Together, we're growing and achieving great things.
             </p>
@@ -331,7 +331,7 @@ function App() {
               </div>
             </div>
             </div>
-            <div className="col-5 p-5 test-slide">
+            <div className="col-md-5 col-12 p-5 test-slide">
             <p className="text-white">
             The Grow Up Buddy community is like a second family, always there to offer support, guidance, and inspiration. Through their platform, I've connected with incredible individuals who have become my collaborators and lifelong friends. Together, we're growing and achieving great things.
             </p>
@@ -361,7 +361,7 @@ function App() {
           <div className="col-md-6 text-white">
             <h3>Connect with us</h3>
           </div>
-          <div className="col-md-6 d-flex bg-white">
+          <div className="col-md-6 d-flex flex-column flex-md-row bg-white">
             <input type="text" className="w-100" />
             <button className="btn bg-black text-white rounded-0 m-2">
               example@growupbuddy.com
