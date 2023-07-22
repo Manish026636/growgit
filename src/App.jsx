@@ -115,15 +115,27 @@ function App() {
     
 
       </section>
-      <div class="circle  container  mt-5 rounded-5 p-md-5 d-flex flex-column align-items-center justify-content-center">
+
+      <div class="  container  mt-5 rounded-5 p-md-5 d-flex flex-column align-items-center justify-content-center">
+
+        {/* circle
         <h1 className="text-center" style={{color:"white",opacity:"0.3"}}>What do you want to make?</h1>
         <div className="d-flex m-3 col-6  justify-content-center">
         <input type="text" className="input md:w-100 w-auto p-3"/>
         <button className="btn text-white gbtn">
           Generate
         </button>
-        </div>
-          </div>
+        </div> */}
+        <iframe src='https://www.youtube.com/embed/Ni90qh99Bhw'
+        frameborder='0'
+        width="50%"
+        height="360"
+        allow='autoplay; encrypted-media'
+        allowfullscreen
+        title='video'
+        />
+      </div>
+
       <section className="container mt-5 mb-3">
       <div className="d-flex flex-column justify-content-center align-items-center">
           <h2 className="lpt2">
