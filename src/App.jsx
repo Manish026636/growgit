@@ -71,7 +71,7 @@ function App() {
           <div className="col-md-6 d-flex justify-content-center align-items-center">
             <div>
               <h1 className="lpht">Building India's Largest<span className="gradient"> Student Community</span></h1>
-              <p className="hdesc">
+              <p className="text-white">
                 Join our revolutionary edtech platform where aspirations converge, and students from every corner of India connect, collaborate, and thrive together.
               </p>
               <a className="btn text-white join-community" href='https://discord.gg/pnjayJbbMJ'>
